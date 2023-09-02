@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  min-height:200px ;
+  background-color: rgb(104, 104, 104);
+  border-radius: 20px;
+  padding: 20px;
+  height: auto;
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+.App button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+.task{
+  text-align: center;
+  width: 100%;
+  background-color: black;
+}
+.task button{
+  margin: 0px;
+  padding: 0px;
+}
+.App input{
+  outline: none;
+}
+.App button:hover{
+opacity: 0.8;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#root{
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(149, 147, 147);
+}
+body{
+  margin: 0px;
+  /* background-color: rgb(149, 147, 147); */
+}
