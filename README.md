@@ -1,3 +1,62 @@
+Title: React To-Do List with Task Management
+----------------------------------------------
+
+
+![2023-09-02 (6)](https://github.com/irshadirshu0722/React-ToDoList/assets/141476447/8fa4f8cd-ed6c-4d7b-8724-832b1a1a771d)
+
+
+https://github.com/irshadirshu0722/React-ToDoList/assets/141476447/5449c344-0409-45ef-a45c-692548c856ec
+
+
+Description:
+--------------------
+Create an efficient and user-friendly to-do list application using React with the ability to add new tasks, delete tasks, and mark tasks as completed by changing their text color to green. This project will help you practice React's fundamental concepts such as state management, component composition, and event handling.
+
+Key Features:
+------------------
+-Task Addition: Users can add new tasks to the to-do list by entering the task description and clicking an "Add" button.
+
+-ask Deletion: Each task item has a "Delete" button that allows users to remove unwanted tasks from the list.
+
+-Task Completion: Users can mark a task as completed by clicking a "Complete" button. Completed tasks will have their text color changed to green, making it easy to distinguish between completed and pending tasks.
+
+Technologies Used:
+------------------
+
+-React: The project is built using the React library for building user interfaces. React's component-based architecture simplifies the management of tasks and their state.
+
+-JavaScript: JavaScript is used for implementing the logic behind adding, deleting, and completing tasks.
+
+-CSS: CSS is utilized to style the to-do list items and buttons. The text color change for completed tasks is also managed through CSS.
+
+Component Structure:
+--------------------
+
+-App Component: This is the root component that holds the state of the to-do list and manages the logic for adding, deleting, and completing tasks.
+
+-Task Component: This component represents an individual task item, displaying its description, a "Delete" button, and a "Complete" button. The text color change for completed tasks is handled here.
+
+Workflow:
+-------------
+
+-Users can enter a task description in an input field and click the "Add" button to add it to the to-do list.
+
+-Each task item is displayed with a "Delete" button that allows users to remove it from the list when it's no longer needed.
+
+-To mark a task as completed, users can click the "Complete" button associated with the task. This action changes the text color to green, indicating that the task is done.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
